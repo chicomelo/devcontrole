@@ -218,12 +218,11 @@ const config = {
     "db"
   ],
   "activeProvider": "mongodb",
-  "postinstall": false,
   "inlineDatasources": {
     "db": {
       "url": {
         "fromEnvVar": "DATABASE_URL",
-        "value": null
+        "value": "mongodb+srv://jfpmelo:ChicoMelo321@devcontrole.ckrqzpk.mongodb.net/DevControle?retryWrites=true&w=majority&appName=DevControle"
       }
     }
   },
